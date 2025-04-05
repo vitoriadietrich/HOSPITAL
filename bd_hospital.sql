@@ -129,7 +129,7 @@ create table if not exists tipo_quarto(
 );
 
 
--- Inserindo dados na tabela Convenio
+-- Inserindo dados na tabela Convênio
 --
 insert into convenio(id_convenio, nome_convenio, cnpj_convenio, tempo_carencia) values(1, 'Alice', '9852143614751', '30 dias');
 insert into convenio(id_convenio, nome_convenio, cnpj_convenio, tempo_carencia) values(2, 'Unimed', '47810596327845', '24 horas');
@@ -143,169 +143,169 @@ insert into convenio(id_convenio, nome_convenio, cnpj_convenio, tempo_carencia) 
 insert into convenio(id_convenio, nome_convenio, cnpj_convenio, tempo_carencia) values(10, 'MaisSaude', '29814536710254', '25 dias');
 
 
--- Inserindo dados na tabela Endereco
+-- Inserindo dados na tabela Endereço
 --
 insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(2, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '2');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(3, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '3');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(4, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '4');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(5, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '5');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(6, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '6');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(7, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '7');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(8, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '8');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(9, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '9');
-insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(10, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '10');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(2, 'Rua Marinha Penha', '05280-000', 'Sol Nascente' 'São Paulo', 'São Paulo', null, '2');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(3, 'Rua Julio Mandaqui', '05779-000', 'Mandaqui' 'São Paulo', 'São Paulo', null, '3');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(4, 'Rua Alberto Machado', '05342-000', 'Vila Sulina' 'São Paulo', 'São Paulo', null, '4');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(5, 'Rua Clementina de Almeida Bronze', '05214-000', 'Canaã' 'São Paulo', 'São Paulo', null, '5');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(6, 'Rua Ilha do Francês', '05268-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '6');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(7, 'Rua Aparecida do Norte Bonvina', '05496-000', 'Vila Piauí' 'São Paulo', 'São Paulo', null, '7');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(8, 'Rua Coronel José Gladiador', '05217-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '8');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(9, 'Rua Fernando Ponte Bazar', '05532-000', 'Rosinha' 'São Paulo', 'São Paulo', null, '9');
+insert into endereco(id_endereco, logradouro, cep, bairro, cidade, estado, medico_id, paciente_id) values(10, 'Rua Gaúcho Botazar de Franco', '05114-000', 'Jardim Britânia' 'São Paulo', 'São Paulo', null, '10');
 
 
 -- Inserindo dados na tabela Especialidade
 --
 insert into especialidade(id_especialidade, nome_especialidade) values(1, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(2, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(3, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(4, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(5, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(6, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(7, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(8, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(9, 'Pediatria');
-insert into especialidade(id_especialidade, nome_especialidade) values(10, 'Pediatria');
+insert into especialidade(id_especialidade, nome_especialidade) values(2, 'Neurologia');
+insert into especialidade(id_especialidade, nome_especialidade) values(3, 'Cardiologia');
+insert into especialidade(id_especialidade, nome_especialidade) values(4, 'Pneumologia');
+insert into especialidade(id_especialidade, nome_especialidade) values(5, 'Hematologia');
+insert into especialidade(id_especialidade, nome_especialidade) values(6, 'Imunologia');
+insert into especialidade(id_especialidade, nome_especialidade) values(7, 'Endocrinologia');
+insert into especialidade(id_especialidade, nome_especialidade) values(8, 'Ortopedia');
+insert into especialidade(id_especialidade, nome_especialidade) values(9, 'Reumatologia');
+insert into especialidade(id_especialidade, nome_especialidade) values(10, 'Ginecologia');
 
 
--- Inserindo dados na tabela Tipo de quarto
+-- Inserindo dados na tabela Tipo de Quarto
 --
 insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(1, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(2, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(3, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(4, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(5, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(6, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(7, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(8, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(9, '600.00', 'Apartamento');
-insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(10, '600.00', 'Apartamento');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(2, '700.00', 'Enfermaria');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(3, '650.00', 'Quarto de Isolamento');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(4, '800.00', 'Unidade de Terapia Intensiva (UTI)');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(5, '500.00', 'Unidade Semi-Intensiva / Intermediária');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(6, '1000.00', 'Quarto Privativo / Individual');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(7, '820.00', 'Quarto Semi-Privativo');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(8, '750.00', 'Quarto de Pré-parto / PPP (Pré-parto, Parto e Pós-parto)');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(9, '900.00', 'Quarto Psiquiátrico');
+insert into tipo_quarto(id_tipo, valor_diario, desc_quarto) values(10, '950.00', 'Quarto de Cuidados Paliativos');
 
 
--- Inserindo dados na tabela Medico
+-- Inserindo dados na tabela Médico
 --
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(1, 'Letícia de Oliveira', '486422876913', 'CRM-SP 123456' 'leticiaoliveira@gmail.com', 'Médico', Pediatria, '944039887');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(2, 'Albert Ribeiro', '486422877943', 'CRM-SP 123983' 'albertribeiro@gmail.com', 'Médico', Neurologia, '944039254');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(3, 'Maria Camargo', '486422878213', 'CRM-SP 123772' 'mariacamargo@gmail.com', 'Médico', Cardiologia, '944039336');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(4, 'Bruna Branca', '486422879936', 'CRM-SP 123119' 'brunabranca@gmail.com', 'Médico', Pneumologia, '944039978');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(5, 'Vitoria Dietrich', '486422878824', 'CRM-SP 123664' 'vitoriadietrich@gmail.com', 'Médico', Hematologia, '944039125');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(6, 'Carolina Viana', '486422871164', 'CRM-SP 123873' 'carolinaviana@gmail.com', 'Médico', Imunologia, '944039446');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(7, 'Andressa Barbosa', '486422879964', 'CRM-SP 123887' 'andressabarbosa@gmail.com', 'Médico', Endocrinologia, '944039557');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(8, 'Tereza Vieira', '486422872378', 'CRM-SP 123124' 'terezavieira@gmail.com', 'Médico', Ortopedia, '944039891');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(9, 'Augusto Santos', '486422879433', 'CRM-SP 1233324' 'augustosantos@gmail.com', 'Médico', Reumatologia, '944039332');
+insert into medico(id_medico, nome_medico, cpf_medico, crm, email_medico, cargo, especialidade_id, numero_telefone) values(10, 'Roberto Silveira Monte', '486422877144', 'CRM-SP 123991' 'robertosilmonte@gmail.com', 'Médico', Ginecologia, '944039247');
 
 
 -- Inserindo dados na tabela Paciente
 --
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(1, 'Renata Rodrigues', '08/02/1988', '97821365' '436612878863', '396327278', renatarodrigues@gmail.com, 'Alice');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(2, 'Lívia Silva', '05/09/1966', '97821881' '436612877971', '396327558', liviasilva@gmail.com, 'Unimed');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(3, 'Marta Oliveira', '12/05/2000', '97821992' '436612872236', '396327141', martaoliveira@gmail.com, 'Cuidar');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(4, 'Lucas Santos', '10/02/1980', '97821438' '436612877992', '396327336', lucassantos@gmail.com, 'MaisSaude');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(5, 'Henrique Ferraz', '30/01/1974', '97821112' '436612871456', '396327971', henriqueferraz@gmail.com, 'SUS');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(6, 'Gabriel Souza', '28/08/1963', '97821736' '436612877732', '396327087', gabrielsouza@gmail.com, 'MaisSaude');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(7, 'Fabiana Monte', '04/07/1890', '97821225' '436612871138', '396327659', fabianamonte@gmail.com, 'MaisSaude');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(8, 'Luíza Cardoso', '09/06/1976', '97821447' '436612879951', '396327559', luizacardoso@gmail.com, 'MaisSaude');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(9, 'Juliana Cristina', '20/09/2001', '97821336' '436612871191', '396327114', julianacristina@gmail.com, 'MaisSaude');
+insert into paciente(id_paciente, nome_paciente, data_nascimento, numero_telefone, cpf_paciente, rg_paciente, email_paciente, convenio_id) values(10, 'Mateus Moraes', '25/03/1990', '97821149' '436612879920', '396327834', mateusmoraes@gmail.com, 'MaisSaude');
 
 
 -- Inserindo dados na tabela Telefone
 --
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(1, '11', '933894273', '1' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(2, '11', '933894551', '2' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(3, '11', '933894782', '3' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(4, '11', '933894336', '4' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(5, '11', '933894724', '5' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(6, '11', '933894992', '6' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(7, '11', '933894189', '7' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(8, '11', '933894554', '8' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(9, '11', '933894154', '9' null);
+insert into telefone(id_telefone, ddd, numero, medico_id, paciente_id) values(10, '11', '933894363', '10' null);
 
 
 -- Inserindo dados na tabela Enfermeiro
 --
 insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
-insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(2, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(3, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(4, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(5, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(6, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(7, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(8, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(9, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
+insert into enfermeiro(id_enfermeiro, nome_enfermeiro, cpf_enfermeiro, cre) values(10, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce');
 
 
 -- Inserindo dados na tabela Consulta
 --
 insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
-insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(2, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(3, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(4, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(5, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(6, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(7, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(8, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(9, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
+insert into consulta(id_consulta, data_consulta, hora_consulta, medico_id, paciente_id, valor_consulta, especialidade_id) values(10, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null);
 
 
 -- Inserindo dados na tabela Receita
 --
 insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(2, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(3, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(4, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(5, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(6, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(7, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(8, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(9, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into receita(id_receita, medicamento, qld_medicamento, instrucao_uso, consulta_id) values(10, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
 
 
 -- Inserindo dados na tabela Quarto
 --
 insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
-insert into quarto(id_quarto, numero, tipo_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(2, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(3, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(4, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(5, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(6, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(7, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(8, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(9, 'Rua Luiza Aparecida de Húngaro', '05267-000');
+insert into quarto(id_quarto, numero, tipo_id) values(10, 'Rua Luiza Aparecida de Húngaro', '05267-000');
 
 
--- Inserindo dados na tabela Internacao
+-- Inserindo dados na tabela Internação
 --
 insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(2, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(3, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(4, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(5, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(6, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(7, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(8, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(9, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(10, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo', 'São Paulo', null, '1');
 
 
 -- Inserindo dados na tabela Plantão
 --
 insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
-insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(1, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(2, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(3, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(4, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(5, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(6, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(7, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(8, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(9, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
+insert into plantao(id_plantao, data_plantao, hora_plantao, internacao_id, enfermeiro_id) values(10, 'Rua Luiza Aparecida de Húngaro', '05267-000', 'Morro Doce' 'São Paulo');
