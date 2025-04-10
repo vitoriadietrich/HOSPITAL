@@ -1,0 +1,218 @@
+#Montagem do script
+
+{
+  "especialidades": [],
+  "medicos": [],
+  "pacientes": [],
+  "consultas": [],
+  "receituarios": [],
+  "quartos": [],
+  "internacoes": [],
+  "enfermeiros": [],
+  "convenios": []
+}
+
+
+
+#Desenvolvendo os scripts
+
+{
+  "especialidades": [
+    { "id": 1, "nome": "Pediatria" },
+    { "id": 2, "nome": "Neurologia" },
+    { "id": 3, "nome": "Cardiologia" },
+    { "id": 4, "nome": "Pneumologia" },
+    { "id": 5, "nome": "Hematologia" },
+    { "id": 6, "nome": "Imunologia" },
+    { "id": 7, "nome": "Endocrinologia" }
+    { "id": 8, "nome": "Ortopedia" }
+    { "id": 9, "nome": "Reumatologia" }
+    { "id": 10, "nome": "Ginecologia" }
+    { "id": 11, "nome": "Oncologista" }
+    { "id": 12, "nome": "Nefrologista" }
+    { "id": 13, "nome": "Angiologista" }
+    { "id": 14, "nome": "Dermatologista" }
+    { "id": 15, "nome": "Geriatra" }
+    { "id": 16, "nome": "Toxicologista" }
+    { "id": 17, "nome": "Andrologista" }
+    { "id": 18, "nome": "Sexólogo" }
+    { "id": 19, "nome": "Paliativista" }
+    { "id": 20, "nome": "Emergencista" }
+  ],
+  "medicos": [
+    { "id": 1, "nome": "Letícia de Oliveira", "especialidade_id": 1 },
+    { "id": 2, "nome": "Albert Ribeiro", "especialidade_id": 2 },
+    { "id": 3, "nome": "Maria Camargo", "especialidade_id": 3 },
+    { "id": 4, "nome": "Bruna Branca", "especialidade_id": 4 },
+    { "id": 5, "nome": "Vitoria Dietrich", "especialidade_id": 5 },
+    { "id": 6, "nome": "Carolina Viana", "especialidade_id": 6 },
+    { "id": 7, "nome": "Andressa Barbosa", "especialidade_id": 7 },
+    { "id": 8, "nome": "Tereza Vieira", "especialidade_id": 8 },
+    { "id": 9, "nome": "Augusto Santos", "especialidade_id": 9 },
+    { "id": 10, "nome": "Roberto Silveira Monte", "especialidade_id": 10 },
+    { "id": 11, "nome": "Eloiza Albert Santos", "especialidade_id": 11 },
+    { "id": 12, "nome": "Luana Rocha", "especialidade_id": 12 }
+    { "id": 13, "nome": "Rochelle Pascal", "especialidade_id": 13 }
+    { "id": 14, "nome": "Eliana Silveira", "especialidade_id": 14 }
+    { "id": 15, "nome": "Carlos Henrique", "especialidade_id": 15 }
+    { "id": 16, "nome": "Joaquim Fernandes", "especialidade_id": 16 }
+    { "id": 17, "nome": "William Gonçalves", "especialidade_id": 17 }
+    { "id": 18, "nome": "Rodrigo Morales", "especialidade_id": 18 }
+    { "id": 19, "nome": "Carlito de Jesus", "especialidade_id": 19 }
+    { "id": 20, "nome": "Sara Viena", "especialidade_id": 20 }
+  ],
+  "pacientes": [
+    { "id": 1, "nome": "Renata Rodrigues" },
+    { "id": 2, "nome": "Lívia Silva" },
+    { "id": 3, "nome": "Marta Oliveira" },
+    { "id": 4, "nome": "Lucas Santos" },
+    { "id": 5, "nome": "Henrique Ferraz" },
+    { "id": 6, "nome": "Gabriel Souza" },
+    { "id": 7, "nome": "Fabiana Monte" },
+    { "id": 8, "nome": "Luíza Cardoso" },
+    { "id": 9, "nome": "Juliana Cristina" },
+    { "id": 10, "nome": "Mateus Moraes" },
+    { "id": 11, "nome": "Carla Nogueira" },
+    { "id": 12, "nome": "Tomé Henrique" },
+    { "id": 13, "nome": "Gabriel Barbosa" },
+    { "id": 14, "nome": "Beatriz Silva" },
+    { "id": 15, "nome": "Júlio Clementino" }
+    { "id": 16, "nome": "Mara Andrade" }
+    { "id": 17, "nome": "Linda Moraes" }
+    { "id": 18, "nome": "Rute Santos" }
+    { "id": 19, "nome": "Michele Pereira" }
+    { "id": 20, "nome": "Maycon Franco" }
+  ],
+  "consultas": [
+    { "id": 1, "data": "25/03/2025", "paciente_id": 1, "medico_id": 1 },
+    { "id": 2, "data": "20/02/2020", "paciente_id": 2, "medico_id": 2 },
+    { "id": 3, "data": "18/04/2020", "paciente_id": 3, "medico_id": 3 },
+    { "id": 4, "data": "10/05/2021", "paciente_id": 4, "medico_id": 4 },
+    { "id": 5, "data": "11/08/2021", "paciente_id": 5, "medico_id": 5 },
+    { "id": 6, "data": "17/02/2022", "paciente_id": 6, "medico_id": 6 },
+    { "id": 7, "data": "19/05/2021", "paciente_id": 7, "medico_id": 7 },
+    { "id": 8, "data": "09/05/2022", "paciente_id": 8, "medico_id": 8 },
+    { "id": 9, "data": "08/03/2022", "paciente_id": 9, "medico_id": 9 },
+    { "id": 10, "data": "22/12/2022", "paciente_id": 10, "medico_id": 10 },
+    { "id": 11, "data": "29/07/2023", "paciente_id": 11, "medico_id": 11 },
+    { "id": 12, "data": "30/11/2023", "paciente_id": 12, "medico_id": 12 },
+    { "id": 13, "data": "04/08/2021", "paciente_id": 13, "medico_id": 13 },
+    { "id": 14, "data": "26/09/2024", "paciente_id": 14, "medico_id": 14 },
+    { "id": 15, "data": "22/07/2024", "paciente_id": 15, "medico_id": 15 },
+    { "id": 16, "data": "01/06/2024", "paciente_id": 16, "medico_id": 16 },
+    { "id": 17, "data": "11/03/2024", "paciente_id": 17, "medico_id": 17 },
+    { "id": 18, "data": "19/09/2024", "paciente_id": 18, "medico_id": 18 },
+    { "id": 19, "data": "20/03/2025", "paciente_id": 19, "medico_id": 19 },
+    { "id": 20, "data": "09/07/2025", "paciente_id": 20, "medico_id": 20 }
+  ],
+  "receituarios": [
+    { "consulta_id": 1, "medicamentos": ["Paracetamol", "Amoxicilina"] },
+    { "consulta_id": 2, "medicamentos": ["Ibuprofeno"] },
+    { "consulta_id": 3, "medicamentos": ["Omeprazol", "Buscopan", "Dramin"] },
+    { "consulta_id": 4, "medicamentos": ["Minoxidil", "Cetoconazol"] },
+    { "consulta_id": 5, "medicamentos": ["AAS", "Captopril"] },
+    { "consulta_id": 6, "medicamentos": ["Dipirona"] },
+    { "consulta_id": 7, "medicamentos": ["Dorflex", "Torsilax"] },
+    { "consulta_id": 8, "medicamentos": ["Azitromicina", "Prednisona"] },
+    { "consulta_id": 9, "medicamentos": ["Losartana", "Clopidogrel"] },
+    { "consulta_id": 10, "medicamentos": ["Ibuprofeno"] },
+    { "consulta_id": 11, "medicamentos": ["Dipirona", "Hixizine"] },
+    { "consulta_id": 12, "medicamentos": ["Paracetamol", "Amoxicilina"] },
+    { "consulta_id": 13, "medicamentos": ["Minoxidil", "Cetoconazol"] },
+    { "consulta_id": 14, "medicamentos": ["Dorflex", "Torsilax"] },
+    { "consulta_id": 15, "medicamentos": ["Dipirona"] },
+    { "consulta_id": 16, "medicamentos": ["Ibuprofeno"] },
+    { "consulta_id": 17, "medicamentos": ["AAS", "Captopril"] },
+    { "consulta_id": 18, "medicamentos": ["Omeprazol", "Buscopan", "Dramin"] },
+    { "consulta_id": 18, "medicamentos": ["Losartana", "Clopidogrel"] },
+    { "consulta_id": 20, "medicamentos": ["Azitromicina", "Prednisona"] },
+  ],
+  "quartos": [
+    { "id": 1, "tipo": "Apartamento", "valor_diaria": 600 },
+    { "id": 2, "tipo": "Enfermaria", "valor_diaria": 700 },
+    { "id": 3, "tipo": "Quarto de Isolamento", "valor_diaria": 650 }
+    { "id": 4, "tipo": "Unidade de Terapia Intensiva (UTI)", "valor_diaria": 800 }
+    { "id": 5, "tipo": "Unidade Semi-Intensiva / Intermediária", "valor_diaria": 500 }
+    { "id": 6, "tipo": "Quarto Privativo / Individual", "valor_diaria": 1000 }
+    { "id": 7, "tipo": "Quarto Semi-Privativo", "valor_diaria": 820 }
+    { "id": 8, "tipo": "Quarto de Pré-parto / PPP (Pré-parto, Parto e Pós-parto)", "valor_diaria": 750 }
+    { "id": 9, "tipo": "Quarto Psiquiátrico", "valor_diaria": 900 }
+    { "id": 10, "tipo": "Quarto de Cuidados Paliativos", "valor_diaria": 950 }
+    { "id": 11, "tipo": "UTI Neonatal (UTIN)", "valor_diaria": 970 }
+    { "id": 12, "tipo": "Quarto Pediátrico", "valor_diaria": 630 }
+    { "id": 13, "tipo": "Unidade de AVC (AVC Unit / Stroke Unit)", "valor_diaria": 400 }
+    { "id": 14, "tipo": "Unidade Coronariana (UCO / UCI)", "valor_diaria": 860 }
+    { "id": 15, "tipo": "Unidade de Internação Geriátrica", "valor_diaria": 730 }
+    { "id": 16, "tipo": "Unidade de Internação Pediátrica", "valor_diaria": 780 }
+    { "id": 17, "tipo": "Unidade de Transplante", "valor_diaria": 720 }
+    { "id": 18, "tipo": "Unidade de Quimioterapia (ou Hospital-Dia)", "valor_diaria": 680 }
+    { "id": 19, "tipo": "Sala de Recuperação Pós-Anestésica (RPA)", "valor_diaria": 640 }
+    { "id": 20, "tipo": "Unidade de Reabilitação", "valor_diaria": 690 }
+  ],
+  "internacoes": [
+    { "id": 1, "paciente_id": 1, "medico_id": 1, "quarto_id": 1, "data": "19/05/2020", "enfermeiros_ids": [1, 2] },
+    { "id": 2, "paciente_id": 2, "medico_id": 2, "quarto_id": 2, "data": "20/05/2020", "enfermeiros_ids": [3, 4] },
+    { "id": 3, "paciente_id": 3, "medico_id": 3, "quarto_id": 3, "data": "14/06/2020", "enfermeiros_ids": [5, 6] },
+    { "id": 4, "paciente_id": 4, "medico_id": 4, "quarto_id": 4, "data": "14/03/2020", "enfermeiros_ids": [7, 8] },
+    { "id": 5, "paciente_id": 5, "medico_id": 5, "quarto_id": 5, "data": "10/09/2020", "enfermeiros_ids": [9, 10] },
+    { "id": 6, "paciente_id": 6, "medico_id": 6, "quarto_id": 6, "data": "08/04/2020", "enfermeiros_ids": [11, 12] },
+    { "id": 7, "paciente_id": 7, "medico_id": 7, "quarto_id": 7, "data": "09/09/2020", "enfermeiros_ids": [13, 14] }
+    { "id": 8, "paciente_id": 8, "medico_id": 8, "quarto_id": 8, "data": "17/07/2020", "enfermeiros_ids": [15, 16] }
+    { "id": 9, "paciente_id": 9, "medico_id": 9, "quarto_id": 9, "data": "13/05/2021", "enfermeiros_ids": [17, 18] }
+    { "id": 10, "paciente_id": 10, "medico_id": 10, "quarto_id": 10, "data": "29/07/2021", "enfermeiros_ids": [19, 20] }
+    { "id": 11, "paciente_id": 11, "medico_id": 11, "quarto_id": 11, "data": "30/02/2021", "enfermeiros_ids": [2, 8] }
+    { "id": 12, "paciente_id": 12, "medico_id": 12, "quarto_id": 12, "data": "31/05/2021", "enfermeiros_ids": [1, 9] }
+    { "id": 13, "paciente_id": 13, "medico_id": 13, "quarto_id": 13, "data": "05/02/2022", "enfermeiros_ids": [10, 15] }
+    { "id": 14, "paciente_id": 14, "medico_id": 14, "quarto_id": 14, "data": "29/04/2022", "enfermeiros_ids": [18, 20] }
+    { "id": 15, "paciente_id": 15, "medico_id": 15, "quarto_id": 15, "data": "28/04/2022", "enfermeiros_ids": [3, 5] }
+    { "id": 16, "paciente_id": 16, "medico_id": 16, "quarto_id": 16, "data": "06/08/2022", "enfermeiros_ids": [6, 14] }
+    { "id": 17, "paciente_id": 17, "medico_id": 17, "quarto_id": 17, "data": "03/01/2023", "enfermeiros_ids": [8, 3] }
+    { "id": 18, "paciente_id": 18, "medico_id": 18, "quarto_id": 18, "data": "09/07/2023", "enfermeiros_ids": [12, 17] }
+    { "id": 19, "paciente_id": 19, "medico_id": 19, "quarto_id": 19, "data": "20/03/2023", "enfermeiros_ids": [13, 16] }
+    { "id": 20, "paciente_id": 20, "medico_id": 20, "quarto_id": 20, "data": "25/08/2023", "enfermeiros_ids": [11, 19] }
+  ],
+  "enfermeiros": [
+    { "id": 1, "nome": "Enf. Cristiane Nogueira" },
+    { "id": 2, "nome": "Roberta Cavalcante" },
+    { "id": 3, "nome": "Enf. Inácio Paulino" },
+    { "id": 4, "nome": "Enf. Anderson Vieira" },
+    { "id": 5, "nome": "Enf. Zete Jesus" },
+    { "id": 6, "nome": "Enf. Jéssica Paulina" },
+    { "id": 7, "nome": "Enf. Pedro Carvalho" },
+    { "id": 8, "nome": "Enf. José Orlando" },
+    { "id": 9, "nome": "Enf. Deuza Cruz" },
+    { "id": 10, "nome": "Enf. Karolina Machado" }
+    { "id": 11, "nome": "Enf. Marcos Purcino" }
+    { "id": 12, "nome": "Enf. Brayan Oliveira" }
+    { "id": 13, "nome": "Enf. Arthur Silveira" }
+    { "id": 14, "nome": "Enf. Vânia Andrade" }
+    { "id": 15, "nome": "Enf. Cilene Brito" }
+    { "id": 16, "nome": "Enf. Ruan Carvalho" }
+    { "id": 17, "nome": "Enf. Luíza Aparecida" }
+    { "id": 18, "nome": "Enf. Guilherme Macedo" }
+    { "id": 19, "nome": "Enf. Raphael Silva" }
+    { "id": 20, "nome": "Enf. Otávio Vincente" }
+  ],
+  "convenios": [
+    { "id": 1, "nome": "Alice" },
+    { "id": 2, "nome": "Unimed" },
+    { "id": 3, "nome": "Cuidar" },
+    { "id": 4, "nome": "MaisSaude" }
+    { "id": 5, "nome": "SUS" }
+    { "id": 6, "nome": "MaisSaude" }
+    { "id": 7, "nome": "MaisSaude" }
+    { "id": 8, "nome": "SUS" }
+    { "id": 9, "nome": "MaisSaude" }
+    { "id": 10, "nome": "MaisSaude" }
+    { "id": 11, "nome": "Unimed" }
+    { "id": 12, "nome": "MaisSaude" }
+    { "id": 13, "nome": "SUS" }
+    { "id": 14, "nome": "MaisSaude" }
+    { "id": 15, "nome": "Cuidar" }
+    { "id": 16, "nome": "MaisSaude" }
+    { "id": 17, "nome": "SUS" }
+    { "id": 18, "nome": "MaisSaude" }
+    { "id": 19, "nome": "MaisSaude" }
+    { "id": 20, "nome": "SUS" }
+  ]
+}
