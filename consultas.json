@@ -1,3 +1,254 @@
+#1º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #2º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #3º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #4º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #5º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #6º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #7º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #8º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #9º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #10º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #11º Consulta
 {
     "_id": "5f8b3b7893109c1f1c1f",
     "data": "2018-06-25T10:00:00Z",
@@ -22,3 +273,229 @@
         ]
     }
 }
+
+
+
+        #12º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #13º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #14º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #15º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #16º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #17º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+        #18º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+          #19º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
+
+
+          #20º Consulta
+{
+    "_id": "5f8b3b7893109c1f1c1f",
+    "data": "2018-06-25T10:00:00Z",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
+    "valor": 200,
+    "conveniada": true,
+    "especialidade_buscada": "Pediatria",
+    "descricao": "Paciente com febre e tosse",
+    "receita": {
+        "medicamentos": [
+            {
+                "nome": "Paracetamol comprimidos",
+                "quantidade": 10,
+                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+            },
+            {
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 12,
+                "instrucoes": "Tomar 1 comprimido a cada 12 horas"
+            }
+        ]
