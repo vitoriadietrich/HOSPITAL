@@ -404,26 +404,26 @@ insert into quarto(id_quarto, numero, tipo_id) values(20, '07', '20');
 
 -- Inserindo dados na tabela Internação
 --
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, '19/05/2020', '28/05/2020' 'São Paulo', 'São Paulo', '1', '1' '1');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(2, '20/05/2020', '29/05/2020', 'Morro Doce' 'São Paulo', '2', '2' '2');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(3, '14/06/2020', '20/06/2020', 'Morro Doce' 'São Paulo', '3', '3' '3');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(4, '14/03/2020', '19/03/2020', 'Morro Doce' 'São Paulo', '4', '4' '4');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(5, '10/09/2020', '20/09/2020', 'Morro Doce' 'São Paulo', '5', '5' '5');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(6, '08/04/2020', '14/04/2020', 'Morro Doce' 'São Paulo', '6', '6' '6');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(7, '09/09/2020', '18/09/2020', 'Morro Doce' 'São Paulo', '7', '7' '7');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(8, '17/07/2020', '26/07/2020', 'Morro Doce' 'São Paulo', '8', '8' '8');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(9, '13/05/2021', '20/05/2021', 'Morro Doce' 'São Paulo', '9', '9' '9');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(10, '29/07/2021', '10/08/2021', 'Morro Doce' 'São Paulo', '10', '10' '10');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(11, '30/02/2021', '13/03/2021', 'Morro Doce' 'São Paulo', '11', '11' '11');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(12, '31/05/2021', '15/06/2021', 'Morro Doce' 'São Paulo', '12', '12' '12');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(13, '05/02/2022', '15/02/2022', 'Morro Doce' 'São Paulo', '13', '13' '13');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(14, '29/04/2022', '10/05/2022', 'Morro Doce' 'São Paulo', '14', '14' '14');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(15, '28/04/2022', '14/05/2022', 'Morro Doce' 'São Paulo', '15', '15' '15');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(16, '06/08/2022', '16/08/2022', 'Morro Doce' 'São Paulo', '16', '16' '16');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(17, '03/01/2023', '10/02/2023', 'Morro Doce' 'São Paulo', '17', '17' '17');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(18, '09/07/2023', '20/07/2023', 'Morro Doce' 'São Paulo', '18', '18' '18');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(19, '20/03/2023', '29/03/2023', 'Morro Doce' 'São Paulo', '19', '19' '19');
-insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(20, '25/08/2023', '30/08/2023', 'Morro Doce' 'São Paulo', '20', '20' '20');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(1, '19/05/2020', '28/05/2020' '29/05/2020', null, '1', '1' '1');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(2, '20/05/2020', '29/05/2020', '30/05/2020' null, '2', '2' '2');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(3, '14/06/2020', '20/06/2020', '21/06/2020' null, '3', '3' '3');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(4, '14/03/2020', '19/03/2020', '20/03/2020' null, '4', '4' '4');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(5, '10/09/2020', '20/09/2020', '21/09/2020' null, '5', '5' '5');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(6, '08/04/2020', '14/04/2020', '15/04/2020' null, '6', '6' '6');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(7, '09/09/2020', '18/09/2020', '19/09/2020' null, '7', '7' '7');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(8, '17/07/2020', '26/07/2020', '27/07/2020' null, '8', '8' '8');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(9, '13/05/2021', '20/05/2021', '21/05/2021' null, '9', '9' '9');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(10, '29/07/2021', '10/08/2021', '11/08/2021' null, '10', '10' '10');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(11, '30/02/2021', '13/03/2021', '14/03/2021' null, '11', '11' '11');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(12, '31/05/2021', '15/06/2021', '16/06/2021' null, '12', '12' '12');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(13, '05/02/2022', '15/02/2022', '16/02/2022' null, '13', '13' '13');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(14, '29/04/2022', '10/05/2022', '11/05/2022' null, '14', '14' '14');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(15, '28/04/2022', '14/05/2022', '15/05/2022' null, '15', '15' '15');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(16, '06/08/2022', '16/08/2022', '17/08/2022' null, '16', '16' '16');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(17, '03/01/2023', '10/02/2023', '11/02/2023' null, '17', '17' '17');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(18, '09/07/2023', '20/07/2023', '21/07/2023' null, '18', '18' '18');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(19, '20/03/2023', '29/03/2023', '30/03/2023' null, '19', '19' '19');
+insert into internacao(id_internacao, data_entrada, data_prev_alta, data_efet_alta, desc_procedimentos, medico_id, paciente_id, quarto_id) values(20, '25/08/2023', '30/08/2023', '31/08/2023' null, '20', '20' '20');
 
 
 
