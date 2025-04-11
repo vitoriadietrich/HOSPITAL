@@ -11,8 +11,8 @@
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
+                "nome": "Dipirona comprimidos",
+                "quantidade": 20,
                 "instrucoes": "Tomar 1 comprimido a cada 8 horas"
             },
             {
@@ -25,20 +25,20 @@
 
         #2º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f67cr",
+    "data": "2018-06-25T10:00:5C6",
+    "medico_id": "788b3b9b0b1e6b1f1c1f23vh",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f2c0o",
+    "valor": 400,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
+    "especialidade_buscada": "Neurologia",
     "descricao": "Paciente com febre e tosse",
     "receita": {
         "medicamentos": [
             {
                 "nome": "Paracetamol comprimidos",
                 "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "instrucoes": "Tomar 2 comprimido a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -50,20 +50,20 @@
 
         #3º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1fch3u",
+    "data": "2018-06-25T10:00:1D6",
+    "medico_id": "788b3b9b0b1e6b1f1c1fc8od",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1p3g",
+    "valor": 800,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Cardiologia",
+    "descricao": "Febre e para o alívio de dores",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Ibuprofeno comprimidos",
+                "quantidade": 20,
+                "instrucoes": "Tomar 20 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -75,19 +75,19 @@
 
         #4º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f3g6n",
+    "data": "2018-06-25T10:00:00H",
+    "medico_id": "788b3b9b0b1e6b1f1c1f9n4g",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1h7v",
+    "valor": 900,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Pneumologia",
+    "descricao": "Paciente com dor no pulmão",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
+                "nome": "Dorflex comprimidos",
+                "quantidade": 20,
                 "instrucoes": "Tomar 1 comprimido a cada 8 horas"
             },
             {
@@ -100,20 +100,20 @@
 
         #5º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f1v4m",
+    "data": "2018-06-25T10:00:00A",
+    "medico_id": "788b3b9b0b1e6b1f1c1fa9o5",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f2k4f",
+    "valor": 120,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Hematologia",
+    "descricao": "Paciente com dor e febre",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
+                "nome": "Novalgina gotas",
                 "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "instrucoes": "Tomar 10 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -125,20 +125,20 @@
 
         #6º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f2j4j",
+    "data": "2018-06-25T10:00:00M",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1l0p",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1j5b",
+    "valor": 300,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Imunologia",
+    "descricao": "Paciente com alergia forte",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Loratadina gotas",
+                "quantidade": 30,
+                "instrucoes": "Tomar 30 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -150,20 +150,20 @@
 
         #7º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f2j5b",
+    "data": "2018-06-25T10:00:00L",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1pd0",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f2n4c",
+    "valor": 520,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Endocrinologia",
+    "descricao": "Paciente com espirros e prurido nasal",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
+                "nome": "Desloratadina comprimidos",
                 "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "instrucoes": "Tomar 2 comprimido a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -179,16 +179,16 @@
     "data": "2018-06-25T10:00:00Z",
     "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
     "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "valor": 630,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Ortopedia",
+    "descricao": "Paciente com rinite alérgica e urticária",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Allegra gotas",
+                "quantidade": 7,
+                "instrucoes": "Tomar 7 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -200,20 +200,20 @@
 
         #9º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f2d4b",
+    "data": "2018-06-25T10:00:00S",
+    "medico_id": "788b3b9b0b1e6b1f1c1f1k4c",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f0d8b",
+    "valor": 700,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Reumatologia",
+    "descricao": "Paciente com picada de inseto",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Polaramine gotas",
+                "quantidade": 20,
+                "instrucoes": "Tomar 20 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -225,20 +225,20 @@
 
         #10º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f3j5c",
+    "data": "2018-06-25T10:00:00C",
+    "medico_id": "788b3b9b0b1e6b1f1c1f0f4n",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f0v4c",
+    "valor": 1000,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Ginecologia",
+    "descricao": "Paciente com manchas vermelhas e coceira",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Cetirizina comprimidos",
+                "quantidade": 6,
+                "instrucoes": "Tomar 3 comprimido a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -254,16 +254,16 @@
     "data": "2018-06-25T10:00:00Z",
     "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
     "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "valor": 150,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Oncologista",
+    "descricao": "Paciente com bactéria",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
+                "nome": "Amoxicilina comprimidos",
                 "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "instrucoes": "Tomar 5 comprimido a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -278,20 +278,20 @@
 
         #12º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f2n4f",
+    "data": "2018-06-25T10:00:00G",
+    "medico_id": "788b3b9b0b1e6b1f1c1f0f3b",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1fp3d6",
+    "valor": 250,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Nefrologista",
+    "descricao": "Paciente com bronquite e pneumonia",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Azitromicina gotas",
+                "quantidade": 20,
+                "instrucoes": "Tomar 20 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -303,20 +303,20 @@
 
         #13º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f9d5h",
+    "data": "2018-06-25T10:00:00J",
+    "medico_id": "788b3b9b0b1e6b1f1c1fpc4f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1fps3g",
+    "valor": 450,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Angiologista",
+    "descricao": "Paciente com inflamação no ouvido",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Cefalexina gotas",
+                "quantidade": 40,
+                "instrucoes": "Tomar 40 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -328,20 +328,20 @@
 
         #14º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f1j4f",
+    "data": "2018-06-25T10:00:00F",
+    "medico_id": "788b3b9b0b1e6b1f1c1f0fd4",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1fv9d4",
+    "valor": 780,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Dermatologista",
+    "descricao": "Paciente com infecção nas vias respiratórias inferiores",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Clavulin gotas",
+                "quantidade": 15,
+                "instrucoes": "Tomar 15 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -353,20 +353,20 @@
 
         #15º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f3h5c",
+    "data": "2018-06-25T10:00:00C",
+    "medico_id": "788b3b9b0b1e6b1f1c1f0f3b",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1fp3fv",
+    "valor": 960,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Geriatra",
+    "descricao": "Paciente com infecção abdominal",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Ciprofloxacino comprimidos",
+                "quantidade": 15,
+                "instrucoes": "Tomar 3 comprimido a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -378,20 +378,20 @@
 
         #16º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f2j4c",
+    "data": "2018-06-25T10:00:00R",
+    "medico_id": "788b3b9b0b1e6b1f1c1f0f4h",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1fl2d4",
+    "valor": 580,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Toxicologista",
+    "descricao": "Paciente com dor articular",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Diclofenaco gotas",
+                "quantidade": 12,
+                "instrucoes": "Tomar 12 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -403,20 +403,20 @@
 
         #17º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1fo7h4",
+    "data": "2018-06-25T10:00:00O",
+    "medico_id": "788b3b9b0b1e6b1f1c1fph45",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f8b5f",
+    "valor": 280,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Andrologista",
+    "descricao": "Paciente com dor, febre e inflamação",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Nimesulida comprimidos",
+                "quantidade": 60,
+                "instrucoes": "Tomar 4 comprimido a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -428,20 +428,20 @@
 
         #18º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1fr5f4",
+    "data": "2018-06-25T10:00:00E",
+    "medico_id": "788b3b9b0b1e6b1f1c1f0d3f",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1fp3f4",
+    "valor": 340,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Sexólogo",
+    "descricao": "Paciente com inchaço, a vermelhidão e coceira",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Prednisona comprimidos",
+                "quantidade": 50,
+                "instrucoes": "Tomar 8 comprimido a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -453,20 +453,20 @@
 
           #19º Consulta
 {
-    "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "_id": "5f8b3b7893109c1f3j5c",
+    "data": "2018-06-25T10:00:00S",
+    "medico_id": "788b3b9b0b1e6b1f1c1foc4g",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1foi5f",
+    "valor": 380,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Paliativista",
+    "descricao": "Paciente com dor e a inflamação",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Meloxicam gotas",
+                "quantidade": 20,
+                "instrucoes": "Tomar 20 gotas a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
@@ -479,19 +479,19 @@
           #20º Consulta
 {
     "_id": "5f8b3b7893109c1f1c1f",
-    "data": "2018-06-25T10:00:00Z",
-    "medico_id": "788b3b9b0b1e6b1f1c1f1c1f",
-    "paciente_id": "5f8b3b9b0b1e6b1f1c1f1c1f",
-    "valor": 200,
+    "data": "2018-06-25T10:00:00A",
+    "medico_id": "788b3b9b0b1e6b1f1c1fpc46",
+    "paciente_id": "5f8b3b9b0b1e6b1f1c1f9c5h",
+    "valor": 1500,
     "conveniada": true,
-    "especialidade_buscada": "Pediatria",
-    "descricao": "Paciente com febre e tosse",
+    "especialidade_buscada": "Emergencista",
+    "descricao": "Paciente com inflamação e dor",
     "receita": {
         "medicamentos": [
             {
-                "nome": "Paracetamol comprimidos",
-                "quantidade": 10,
-                "instrucoes": "Tomar 1 comprimido a cada 8 horas"
+                "nome": "Cetoprofeno comprimidos",
+                "quantidade": 14,
+                "instrucoes": "Tomar 4 comprimido a cada 8 horas"
             },
             {
                 "nome": "Ibuprofeno comprimidos",
