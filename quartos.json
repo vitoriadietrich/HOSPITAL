@@ -1,1 +1,42 @@
-
+db.quartos.insertMany([
+    { numero: "101", tipo: "Apartamento", valor_diario: 600
+    },
+    { numero: "102", tipo: "Enfermaria", valor_diario: 700
+    },
+    { numero: "103", tipo: "Quarto de Isolamento", valor_diario: 650
+    },
+    { numero: "104", tipo: "Unidade de Terapia Intensiva (UTI)", valor_diario: 800
+    },
+    { numero: "105", tipo: "Unidade Semi-Intensiva / Intermediária", valor_diario: 500
+    },
+    { numero: "106", tipo: "Quarto Privativo / Individual", valor_diario: 1000
+    },
+    { numero: "107", tipo: "Quarto Semi-Privativo", valor_diario: 820
+    },
+    { numero: "108", tipo: "Quarto de Pré-parto / PPP (Pré-parto, Parto e Pós-parto)", valor_diario: 750
+    },
+    { numero: "109", tipo: "Quarto Psiquiátrico", valor_diario: 900
+    },
+    { numero: "110", tipo: "Quarto de Cuidados Paliativos", valor_diario: 950
+    },
+    { numero: "111", tipo: "UTI Neonatal (UTIN)", valor_diario: 970
+    },
+    { numero: "112", tipo: "Quarto Pediátrico", valor_diario: 630
+    },
+    { numero: "113", tipo: "Unidade de AVC (AVC Unit / Stroke Unit)", valor_diario: 400
+    },
+    { numero: "114", tipo: "Unidade Coronariana (UCO / UCI)", valor_diario: 860
+    },
+    { numero: "115", tipo: "Unidade de Internação Geriátrica", valor_diario: 730
+    },
+    { numero: "116", tipo: "Unidade de Internação Pediátrica", valor_diario: 780
+    },
+    { numero: "117", tipo: "Unidade de Transplante", valor_diario: 720
+    },
+    { numero: "118", tipo: "Unidade de Quimioterapia (ou Hospital-Dia)", valor_diario: 680
+    },
+    { numero: "119", tipo: "Sala de Recuperação Pós-Anestésica (RPA)", valor_diario: 640
+    },
+    { numero: "120", tipo: "Unidade de Reabilitação", valor_diario: 690
+    },
+]);
